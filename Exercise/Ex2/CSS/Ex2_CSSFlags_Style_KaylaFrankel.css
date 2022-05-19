@@ -1,0 +1,154 @@
+h1{ 
+	font-size:30px;
+ }
+
+ h2{ 
+ 	font-size: 20px; }
+
+ /*This is a grid 1*/
+	.grid-container {
+		outline: 1px solid black;
+		display: grid;
+		width: 330px;
+		height: 230px;
+		grid-template-columns: 50px 50px 30px 50px 50px 50px 50px;
+		grid-template-rows: 50px 50px 30px 50px 50px 50px 50px 
+	}
+
+	.grid-item { 
+		border: 1px solid black;
+	 }
+
+	 .grid-item-black {
+	 	background-color: black;
+	 	border-radius:  50%;
+	 }
+
+	 .grid-item-blue {
+	 	background-color: #305BD5;
+
+	 }
+
+	 .grid-item-yellow {
+	 	background-color: #F2D341;
+	 }
+
+	 /*This is a grid 2*/
+	.grid-container-2 {
+		outline: 1px solid black;
+		display: grid;
+		width: 400px;
+		height: 250px;
+		grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+	}
+
+	.grid-item { 
+		border: 1px solid black;
+	 }
+
+	 .grid-item-black {
+	 	background-color: black;
+	 	border-radius:  50%;
+	 }
+
+	.grid-item-blue {
+	 	background-color: #305BD5;
+	 }
+
+	 .grid-item-white {
+	 	background-color: ghostwhite;
+	 }
+
+/*This is a grid 3*/
+	.grid-container-3 {
+		outline: 1px solid black;
+		display: grid;
+		width: 330px;
+		height: 230px;
+		grid-template-columns: 50px 50px 30px 50px 50px 50px 50px;
+		grid-template-rows: 50px 50px 30px 50px 50px 50px 50px 
+	}
+
+	.grid-item { 
+		border: 1px solid black;
+	 }
+
+	 .grid-item-black {
+	 	background-color: black;
+	 	border-radius:  50%;
+	 }
+
+	.grid-item-red {
+	 	background-color: #FF0000;
+	 }
+
+	 .grid-item-white {
+	 	background-color: ghostwhite;
+	 }
+
+
+/*This is a grid 4*/
+	.grid-container-4 {
+		outline: 1px solid black;
+		display: grid;
+		width: 370px;
+		height:270px;
+		grid-template-columns: 50px 50px 20px 30px 20px 50px 50px 50px 50px;
+		grid-template-rows: 50px 50px 20px 30px 20px 50px 50px;
+	}
+
+	.grid-item { 
+		border: 1px solid black;
+	 }
+
+	 .grid-item-black {
+	 	background-color: black;
+	 	border-radius:  50%;
+	 }
+
+	 .grid-item-red {
+	 	background-color: #FF0000;
+	 }
+
+	 .grid-item-white {
+	 	background-color: ghostwhite;
+	 }
+
+	 .grid-item-blue {
+	 	background-color: #305BD5;
+	 }
+
+	 /*This is a grid 5*/
+	.grid-container-5 {
+		outline: 1px solid black;
+		display: grid;
+		width: 450px;
+		height: 300px;
+		grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 
+	}
+
+	.grid-item { 
+		border: 1px solid black;
+	 }
+
+	 .grid-item-black {
+	 	background-color: black;
+	 	border-radius:  50%;
+	 }
+
+	.grid-item-deeppink{
+	 	background-color: deeppink;
+	 }
+
+	 .grid-item-seagreen{
+	 	background-color: seagreen;
+	 }
+	 
+	 p { 
+	 	font-size: 15px;
+	 	 }
+
+
+
