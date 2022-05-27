@@ -1,0 +1,849 @@
+h1 {
+	font-size: 20px;
+}
+
+h2 { 
+	font-size: 10px;
+}
+
+h3{
+	font-size: 30px;
+	font-style: bold;
+}
+
+span{
+	font-size: 30px;
+	font-style: bold;
+	color: skyblue; 
+}
+
+/* This is the code for the chart - don't touch! */
+.letter {
+	width:180px;  
+	height:300px;  
+	display:inline-block; 
+	border:1px solid #000; 
+	margin-bottom: 25px;
+	margin-left: 23px;
+	position:relative; 
+}
+
+
+/* This is Letter A*/
+	.letter-a{
+		display: grid; 
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px; 
+		grid-template-rows: 50px 50px 50px 50px 50px 50px; 
+		position:absolute; 
+
+	} 
+
+	.letter-a{
+		/*transition: transform 500ms ease;*/
+		animation: slide-right 500ms ease ;
+	}
+
+	.letter-a:hover{
+		animation: ease ;
+		/*transform: translateX(250px);*/
+	}
+
+	@keyframes slide-right{
+		20% {
+			transform: translateX(20px); background: black;
+		}
+
+		100% {  
+			transform: translateX(50px); background: skyblue;
+		}
+	}
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	
+
+/* This is Letter B*/
+	.letter-b{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute; 
+
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-b{
+		transition: transform 500ms ease;
+	}
+
+	.letter-b:hover{
+		transform: translateX(250px);
+	}
+
+	
+
+/* This is Letter C*/
+	.letter-c{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute; 
+
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-c{
+		transition: transform 500ms ease;
+	}
+
+	.letter-c:hover{
+		transform: translateX(250px);
+	}
+
+/* This is Letter D*/
+	.letter-d{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute; 
+
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-d{
+		transition: transform 500ms ease;
+	}
+
+	.letter-d:hover{
+		transform: translateX(250px);
+	}
+
+/* This is Letter E*/
+	.letter-e{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute; 
+
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-e{
+		transition: transform 500ms ease;
+	}
+
+	.letter-e:hover{
+		transform: translateX(250px);
+	}
+
+/* This is Letter F*/
+	.letter-f{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-f{
+		transition: transform 500ms ease;
+	}
+
+	.letter-f:hover{
+		transform: translateX(250px);
+	}
+
+
+/* This is Letter G*/
+	.letter-g{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	..grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-g{
+		transition: transform 500ms ease;
+	}
+
+	.letter-g:hover{
+		transform: translateX(250px);
+	}
+
+/* This is Letter H*/
+	.letter-h{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-h{
+		transition: transform 500ms ease;
+	}
+
+	.letter-h:hover{
+		transform: translateX(250px);
+	}
+
+
+/* This is Letter I*/
+	.letter-i{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-i{
+		transition: transform 500ms ease;
+	}
+
+	.letter-i:hover{
+		transform: translateX(250px);
+	}
+
+
+/* This is Letter J*/
+	.letter-j{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+	}
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.letter-j{
+		transition: transform 500ms ease;
+	}
+
+	.letter-j:hover{
+		transform: translateX(250px);
+	}
+
+
+/* This is Letter K*/
+	.letter-k{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-k{
+		/*transition: transform 500ms ease;*/
+		animation: slide-right 500ms ease ;
+	}
+
+	.letter-k:hover{
+		animation: ease ;
+		/*transform: translateX(250px);*/
+	}
+
+	@keyframes slide-right{
+		20% {
+			transform: translateX(20px); background: black;
+		}
+
+		100% {  
+			transform: translateX(50px); background: skyblue;
+		}
+	}
+
+/* This is Letter L*/
+	.letter-l{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-l{
+		transition: transform 500ms ease;
+	}
+
+	.letter-l:hover{
+		transform: translateX(250px);
+	}
+
+/* This is Letter M*/
+	.letter-m{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-m{
+		transition: transform 500ms ease;
+	}
+
+	.letter-m:hover{
+		transform: translateX(250px);
+	}
+
+
+/* This is Letter N*/
+	.letter-n{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-n{
+		transition: transform 500ms ease;
+	}
+
+	.letter-n:hover{
+		transform: translateX(250px);
+	}
+
+/* This is Letter O*/
+	.letter-o{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-o{
+		/*transition: transform 500ms ease;*/
+		animation: slide-right 500ms ease ;
+	}
+
+	.letter-o:hover{
+		animation: ease ;
+		/*transform: translateX(250px);*/
+	}
+
+	@keyframes slide-right{
+		20% {
+			transform: translateX(20px); background: black;
+		}
+
+		100% {  
+			transform: translateX(50px); background: skyblue;
+		}
+	}
+
+
+/* This is Letter P*/
+	.letter-p{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-p{
+		transition: transform 500ms ease;
+	}
+
+	.letter-p:hover{
+		transform: translateX(250px);
+	}
+
+/* This is Letter Q*/
+	.letter-q{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-q{
+		transition: transform 500ms ease;
+	}
+
+	.letter-q:hover{
+		transform: translateX(250px);
+	}
+
+/* This is Letter R*/
+	.letter-r{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-r{
+		transition: transform 500ms ease;
+	}
+
+	.letter-r:hover{
+		transform: translateX(250px);
+	}
+
+
+/* This is Letter S*/
+	.letter-s{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-s{
+		transition: transform 500ms ease;
+	}
+
+	.letter-s:hover{
+		transform: translateX(250px);
+	}
+
+/* This is Letter T*/
+	.letter-t{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-t{
+		transition: transform 500ms ease;
+	}
+
+	.letter-t:hover{
+		transform: translateX(250px);
+	}
+
+
+/* This is Letter U*/
+	.letter-u{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+
+	.letter-u{
+		transition: transform 500ms ease;
+	}
+
+	.letter-u:hover{
+		transform: translateX(250px);
+	}
+
+/* This is Letter V*/
+	.letter-v{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-v{
+		transition: transform 500ms ease;
+	}
+
+	.letter-v:hover{
+		transform: translateX(250px);
+	}
+
+
+
+/*This is Letter W*/
+	.letter-w{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-w{
+		/*transition: transform 500ms ease;*/
+		animation: slide-right 500ms ease ;
+	}
+
+	.letter-w:hover{
+		animation: ease ;
+		/*transform: translateX(250px);*/
+	}
+
+	@keyframes slide-right{
+		20% {
+			transform: translateX(20px); background: black;
+		}
+
+		100% {  
+			transform: translateX(50px); background: skyblue;
+		}
+	}
+
+
+/* This is Letter X*/
+	.letter-x{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-x{
+		transition: transform 500ms ease;
+	}
+
+	.letter-x:hover{
+		transform: translateX(250px);
+	}
+
+
+/* This is Letter Y*/
+	.letter-y{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-y{
+		transition: transform 500ms ease;
+	}
+
+	.letter-y:hover{
+		transform: translateX(250px);
+	}
+
+
+/* This is Letter Z*/
+	.letter-z{
+		display: grid;
+		width: 180px;
+		height: 300px;
+		grid-template-columns: 30px 30px 30px 30px 30px 30px;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+		position:absolute;
+	} 
+
+	.grid-item { 
+		border: 1px solid black;
+		visibility: collapse;
+	}
+
+	.grid-item-black {
+		 background-color: black;
+	}
+
+	.letter-z{
+		/*transition: transform 500ms ease;*/
+		animation: slide-right 500ms ease ;
+	}
+
+	.letter-z:hover{
+		animation: ease ;
+		/*transform: translateX(250px);*/
+	}
+
+	@keyframes slide-right{
+		20% {
+			transform: translateX(20px); background: black;
+		}
+
+		100% {  
+			transform: translateX(50px); background: skyblue;
+		}
+	}
+
+
+/*
+<!--this is a horizontal line - https://www.w3schools.com/tags/tag_hr.asp --> 
+    		<hr style="
+    			height:5px;
+    			width:70%;
+    			color:black;
+    			background-color:black;
+  			margin-top: 90%; 
+  			position: absolute;
+    			top: 100px
+			">
+   
+		<!--this is a diagonal line - https://www.w3schools.com/graphics/svg_line.asp-->    		
+			<svg height="300" width="200"
+			style="position: absolute;">
+  			<line x1="140" y1="0" x2="200" y2="200" 
+  				style="stroke:black;stroke-width:5px;">
+			</svg>
+
+			letter-a:{
+        		position:absolute;  
+        		width:200px; 
+        		height:300px; 
+        		border:1px solid #000;  
+        	}
+*/
