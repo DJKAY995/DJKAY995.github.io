@@ -1,0 +1,135 @@
+/* Defining the Grid */
+
+h1{
+	position: relative;
+	font-size: 15px;
+	margin-bottom: -5px;
+	color: skyblue;
+}
+
+h2{
+	font-size:  15px;
+	position: relative;
+	margin-bottom: -5px;
+}
+
+h3{ 
+	font-size: 70px;
+	text-align: center;
+}
+
+ *{
+    margin: 5;
+    padding: 5;
+}
+
+/* Defining the Grid */
+.grid {
+	display: inline-grid;
+	grid-template-columns: repeat(3,33.33%);
+	grid-template-rows: 40% 40% 40%;
+	margin-left: 20px;
+	margin-right: 20px;
+/*	border: 1px solid black;*/
+}
+
+
+/* Defining the header and footer section */
+.header{
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+
+.footer{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin: 5;
+   padding: 5;
+}
+
+/*Slide Across Word*/
+	h4{ 
+		font-size: 100px;
+		font-family: catnip, Arial, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		transition: transform 500ms ease;
+		text-align: center;
+	}
+
+	h4:hover {
+		transform: translateX(250px);
+	}
+	.p1{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+ 
+
+/*Scale / Flatten Word*/
+	h5{
+		font-size: 70px;
+		font-family: 'Underdog', Arial, cursive;
+		font-style: bold;
+		font-weight: 400;
+		transition:	transform: scale(2, 0.5);
+		text-align: center;
+	}
+
+	h5:hover{
+		transform: scale(1, 0.5);
+	}
+
+	.p2{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+
+
+/*Flashing Colours*/
+	@font-face{ 
+	font-family:'snakechan-mmoj-webfont.woff';
+	src: url('Snake/snakechan-mmoj-webfont.woff');
+	src: url('Snake/snakechan-mmoj-webfont.woff') format('embedded-opentype'),
+	     url('Snake/snakechan-mmoj-webfont.woff') format('woff'),
+	     url('Snake/snakechan-mmoj-webfont.woff') format('truetype'),
+	     url('Snake/snakechan-mmoj-webfont.woff') format('svg');
+	}
+
+	h6{
+		font-family: 'snakechan-mmoj-webfont.woff', Arial, sans-serif;
+		font-weight:normal;
+		font-style:normal;
+		font-size: 60px;
+		text-align: center;
+	}
+
+	@keyframes h6 {
+	  0%   {color: deepskyblue;}
+	  25%  {color: darkblue;}
+	  50%  {color: blue;}
+	  75%  {color: skyblue;}
+	  100% {color: steelblue;}
+	}
+
+	h6:hover{
+	  animation-name: h6;
+	  animation-duration: 4s;
+	}
+
+	.p3{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+/*footer*/
+ .p4{
+ 	font-size: 12px;
+ }
+
+
+
+	
