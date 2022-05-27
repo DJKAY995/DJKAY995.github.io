@@ -1,0 +1,80 @@
+/*CSS for making grid*/
+
+h1 {
+	font-size:  100px;
+}
+
+/*This is a square grid 1*/
+	.grid-container {
+		outline: 1px solid black;
+		display: grid;
+		width: 250px;
+		height: 250px;
+		grid-template-columns: 50px 50px 50px 50px 50px;
+		grid-template-rows: 50px 50px 50px 50px 50px;
+	}
+
+	.grid-item { 
+		border: 1px solid black;
+	 }
+
+	 .grid-item-black {
+	 	background-color: black;
+	 	border-radius:  50%;
+	 }
+
+	 .grid-item-yellow {
+	 	background-color: yellow;
+	 }
+
+	 .grid-item-green{
+	 	background-color: green;
+	 }
+
+
+
+
+/*This is a square grid 2*/
+	.grid-container-2 {
+		outline: 1px solid black;
+		display: grid;
+	 	width: 250px;
+		height: 250px;
+		grid-template-columns: 20% 20% 20% 20% 20%;
+		grid-template-rows: 20% 20% 20% 20% 20%;
+	}
+
+
+	.grid-item { 
+		border: 1px solid black;
+	 }
+
+	 .grid-item-black {
+	 	background-color: black;
+	 	border-radius:  50%;
+	 }
+
+/*This is a square grid 3*/
+	.grid-container-3 {
+		outline: 1px solid black;
+		display: grid;
+	 	width: 250px;
+		height: 250px;
+		grid-template-columns: 20% 20% 20% 20% 20%;
+		grid-template-rows: 20% 20% 20% 20% 20%;
+	}
+
+
+	.grid-item { 
+		border: 1px solid black;
+	 }
+
+	 .grid-item-black {
+	 	background-color: black;
+	 	border-radius:  50%;
+	 }
+
+
+
+
+ 
