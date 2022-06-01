@@ -1,0 +1,695 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  display:  block;
+  /*background-color: #130c3c;* - put this  in later?*/ 
+} 
+
+h1 {
+  font-family: Times New Roman;
+  font-size: 100px;
+  text-align: center;
+  color: orangered;
+  line-height: 30px;
+}
+
+/* found this information from here - https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment*/
+h2,h3{ 
+  background-image: url("Web2.jpg");
+  background-attachment: fixed;
+    /*Note: scroll: everything stays still / fixed: picture stays still put text moves*/
+}
+
+h2{
+  line-height: 30px;
+  text-align: center;
+}
+
+h3{
+  line-height: 30px;
+  text-align: center;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif, 500;
+  font-size: 25px;
+  line-height: 8px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+h5{
+  font-size: 20px;
+  color: orangered;
+}
+
+h6{
+  font-size: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.p1{
+  font-size: 20px;
+  font-weight: 100;  
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+span{ /*this is for the space between THE and WEB*/
+  margin-bottom: 25px;
+  margin-left: 35px;
+}
+
+.p2{
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 25px;
+}
+
+.p3{
+  margin-left: 40px;
+  margin-right: 25px;
+}
+
+.p4{
+  font-size: 50px;
+  color: #0c4488;
+  margin-left: 40px;
+  margin-right: 25px;
+  text-align: center;
+  font-family: Times New Roman;
+}
+
+.p5{
+  font-size: 20px;
+  font-weight: 100;  
+  text-align: center;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) - THIS KEEPS THE BOXES NEIGHTBOURS!!!*/
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  align-content: center;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: inline-flex;
+}
+
+.row {
+  display: inline-flex;
+  width: 45%;
+}
+
+.column {
+  flex: 25.25%;
+  padding: 5px;
+}
+
+/*This is for Container 1*/
+.container1 {
+    width: 90%;
+    /* border: 1px solid #000; */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: skyblue;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*This is for Container 2*/
+.container2 {
+    width: 90%;
+    /* border: 1px solid #000; */
+    margin-bottom: 25px;
+    margin-left: 23px;
+    position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: skyblue;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container2:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*This is for Container 3*/
+.container3 {
+    width: 90%;
+    /* border: 1px solid #000; */
+    margin-bottom: 25px;
+    margin-left: 23px;
+    position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: skyblue;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container3:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* This is the code for the chart - don't touch! */
+.letter {
+  width:100px;  
+  height:300px;  
+  display:inline-block; 
+  /*border:1px solid #000; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right:10px;
+  position:relative; 
+}
+
+/*this is for the word THEORIZING*/
+/* This is Letter T*/
+  .letter-t{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-t{
+    transition: transform 500ms ease;
+  }
+
+  .letter-t:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter H*/
+  .letter-h{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-h{
+    transition: transform 500ms ease;
+  }
+
+  .letter-h:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter E*/
+  .letter-e{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute; 
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-e{
+    transition: transform 500ms ease;
+  }
+
+  .letter-e:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter O*/
+  .letter-o{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-o{
+    transition: transform 500ms ease;
+  }
+
+  .letter-o:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter R*/
+  .letter-r{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-r{
+    transition: transform 500ms ease;
+  }
+
+  .letter-r:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter I*/
+  .letter-i{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-i{
+    transition: transform 500ms ease;
+  }
+
+  .letter-i:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter Z*/
+  .letter-z{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-z{
+    transition: transform 500ms ease;
+  }
+
+  .letter-z:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter I*/
+  .letter-i{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-i{
+    transition: transform 500ms ease;
+  }
+
+  .letter-i:hover{
+    transform: translateX(250px);
+  }
+
+  /* This is Letter N*/
+  .letter-n{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-n{
+    transition: transform 500ms ease;
+  }
+
+  .letter-n:hover{
+    transform: translateX(250px);
+  }
+
+  /* This is Letter G*/
+  .letter-g{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-g{
+    transition: transform 500ms ease;
+  }
+
+  .letter-g:hover{
+    transform: translateX(250px);
+  }
+
+/*this is for the word THE*/
+/* This is Letter T*/
+  .letter-t{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-t{
+    transition: transform 500ms ease;
+  }
+
+  .letter-t:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter H*/
+  .letter-h{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-h{
+    transition: transform 500ms ease;
+  }
+
+  .letter-h:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter E*/
+  .letter-e{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute; 
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-e{
+    transition: transform 500ms ease;
+  }
+
+  .letter-e:hover{
+    transform: translateX(250px);
+  }
+
+/*this is for the word WEB*/
+/*This is Letter W*/
+  .letter-w{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute;
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-w{
+    transition: transform 500ms ease;
+  }
+
+  .letter-w:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter E*/
+  .letter-e{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute; 
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-e{
+    transition: transform 500ms ease;
+  }
+
+  .letter-e:hover{
+    transform: translateX(250px);
+  }
+
+/* This is Letter B*/
+  .letter-b{
+    display: grid;
+    width: 180px;
+    height: 300px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    position:absolute; 
+
+  } 
+
+  .grid-item { 
+    border: 1px solid black;
+    visibility: collapse;
+
+  }
+
+  .grid-item-white {
+     background-color: whitesmoke;
+  }
+
+  .letter-b{
+    transition: transform 500ms ease;
+  }
+
+  .letter-b:hover{
+    transform: translateX(250px);
+  }
