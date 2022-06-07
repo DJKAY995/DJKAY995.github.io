@@ -1,0 +1,57 @@
+body{
+	background-image: url("Music.jpeg");
+}
+
+h1{
+	position: relative;
+	font-size: 20px;
+	margin-bottom: -5px;
+	color: skyblue;
+}
+
+h2{
+	font-size: 20px;
+}
+
+p{
+	font-size: 15px;
+}
+
+figure{
+  width: 100%;
+  margin-top:40px;
+  margin-left: 10%; 
+  margin-right: 10%;
+  align-content: center;
+}
+
+figcaption {
+    font-size: 1em;
+ }
+
+figure, figcaption {
+    margin-bottom: 50px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0px;
+ }
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: inline-flex;
+ }
+
+.row {
+  display: inline-flex;
+  width: 100%;
+}
+
+.column {
+  flex: 25.25%;
+  padding: 5px;
+}
