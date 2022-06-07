@@ -1,0 +1,25 @@
+
+body {
+    margin: 20px; /* Add spacing around the entire page */ 
+}
+
+h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+h2{
+	font-size:50px ;
+	text-align: center;
+	color: skyblue;
+}
+
+h3{
+	font-size:15px ;
+	text-align: center;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
