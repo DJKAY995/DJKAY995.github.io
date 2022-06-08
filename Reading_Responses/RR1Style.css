@@ -15,7 +15,7 @@ h2{
 }
 
 h3{
-	font-size:15px ;
+	font-size:20px ;
 	text-align: center;
 }
 
@@ -36,10 +36,6 @@ img {
   margin-right: 10%;
   align-content: center;
 }
-
-figcaption {
-    font-size: 1em;
- }
 
 .figure1, figcaption {
     margin-bottom: 50px;
