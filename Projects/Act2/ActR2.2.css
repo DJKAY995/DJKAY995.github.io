@@ -1,0 +1,59 @@
+body{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h1{
+	font-size:50px ;
+	text-align: center;
+	color: skyblue;
+}
+
+img {
+  width: 100%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+figcaption {
+    font-size: 1em;
+    margin-bottom: 0%; 
+ }
+
+figure, figcaption {
+  margin-left: 10%; 
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: inline-flex;
+}
+
+.row {
+  display: inline-flex;
+  width: 100%;
+}
+
+.column {
+  flex: 25.25%;
+  padding: 5px;
+}
+
+@media(max-width: 1199px){
+  .row{
+    display: block;
+  }
+  .column{
+    width: 100%;
+  }
+
+}
+
