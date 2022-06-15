@@ -1,0 +1,76 @@
+ /*  Remove default browser spacing */
+* {  
+    padding: 0; 
+    margin: 0;
+}
+        
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: ghostwhite;
+    cursor: none;
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-family: arial;
+    color: #880808;
+}
+
+
+h2{
+    font-size: 40px;
+    color: ghostwhite;
+    cursor: help;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    color: ghostwhite;
+    cursor: wait;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h4{
+    font-size: 40px;
+    color: ghostwhite;
+    cursor: not-allowed;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h5{
+    font-size: 40px;
+    color: ghostwhite;
+    cursor: zoom-in;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h6{
+    font-size: 40px;
+    color: ghostwhite;
+    cursor: grab;
+    margin-top: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 17px;
+    text-align: center;
+}
+
+.section{
+    margin-left: 30px;
+}
+#customCursor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    background: #A70D2A
+}
