@@ -1,0 +1,72 @@
+
+body {
+    margin: 20px; /* Add spacing around the entire page */ 
+}
+
+h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+h2{
+	font-size:50px ;
+	text-align: center;
+	color: skyblue;
+}
+
+h3{
+	font-size:20px ;
+	text-align: center;
+}
+
+
+figcaption {
+    font-size: 15px;
+}
+
+img {
+    margin-bottom: 10px;
+    position: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.figure1{
+  width: 30%;
+  margin-top:40px;
+  margin-left: 10%; 
+  margin-right: 10%;
+  align-content: center;
+}
+
+.figure1, figcaption {
+    margin-bottom: 50px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0px;
+ }
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: inline-flex;
+ }
+
+.row {
+  display: inline-flex;
+  width: 100%;
+}
+
+.column {
+  flex: 25.25%;
+  padding: 5px;
+}
