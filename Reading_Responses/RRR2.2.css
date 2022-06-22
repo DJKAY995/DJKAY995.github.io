@@ -3,3 +3,20 @@ h1{
 	text-align: center;
 	color: skyblue;
 }
+
+/*Before and After clicks*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+a:hover {
+  background-color: skyblue;
+  color: black
+}
+
+.round {
+  border-radius: 50%;
+}
