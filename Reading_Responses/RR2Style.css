@@ -51,7 +51,7 @@ figcaption {
  }
 
 /* Clear floats after image containers */
-.row::after {
+.row:after {
   content: "";
   clear: both;
   display: inline-flex;
