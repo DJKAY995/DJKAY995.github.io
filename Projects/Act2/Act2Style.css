@@ -1,7 +1,7 @@
  /*  Remove default browser spacing */
 * {  
     padding: 0; 
-    margin: 0;
+    margin-left: 10px;
 }
         
 body {
@@ -73,4 +73,21 @@ p{
     left: 0;
     width: 2rem;
     background: #A70D2A
+}
+
+/*Before and After clicks*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+a:hover {
+  background-color: skyblue;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
 }
