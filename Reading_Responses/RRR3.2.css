@@ -42,3 +42,20 @@ img {
   margin-left: auto; 
   margin-right: auto;
 }
+
+/*Before and After clicks*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+a:hover {
+  background-color: skyblue;
+  color: black
+}
+
+.round {
+  border-radius: 50%;
+}
