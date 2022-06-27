@@ -53,7 +53,7 @@ a {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
-  text-align: center;
+  margin-left: -3%;
 }
 
 a:hover {
@@ -63,4 +63,10 @@ a:hover {
 
 .round {
   border-radius: 50%;
+}
+
+.column1 {
+  margin-left: -95%;
+
+}
 }
