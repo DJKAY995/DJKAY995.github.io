@@ -69,3 +69,9 @@ a:hover {
 .round {
   border-radius: 50%;
 }
+
+.column1 {
+  flex: 25.25%;
+  padding: 5px;
+  margin-left: 1%;
+}
