@@ -1,15 +1,18 @@
 /*Playing with postioning (random) and scaling*/
 /*To hide content unhide the color in the links section and change margin locations of each line - don't forget to play with size so the fit the page*/
 
+
+
 h1 {
 	font-size: 30px;
 	color: skyblue;
 	text-align: center;
-	font-family: 'Fascinate', cursive;
+	font-family: 'Special Elite', cursive;
 }
 
 h2{
 	text-align: center;
+	font-family: 'Special Elite', cursive;
 }
 
 p{
@@ -38,7 +41,7 @@ a:hover{
 	font-family: Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	font-size: 5px;
+	font-size: 2px;
 	color: black; /*connects to the sentence under the heading*/
 }
 
@@ -49,7 +52,7 @@ a:hover{
 }
 
 .Grow1:hover { 
-	transform: scale(6); 
+	transform: scale(45); 
 }
 
 /*--2--*/
@@ -57,7 +60,7 @@ a:hover{
 	font-family: Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	font-size: 5px;
+	font-size: 2px;
 	color: black; /*connects to the sentence under the heading*/
 }
 
@@ -68,7 +71,7 @@ a:hover{
 }
 
 .Grow2:hover { 
-	transform: scale(15); 
+	transform: scale(25); 
 }
 	
 /*--3--*/
@@ -76,7 +79,7 @@ a:hover{
 	font-family: Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	font-size: 5px;
+	font-size: 2px;
 	color: black; /*connects to the sentence under the heading*/
 }
 
@@ -87,7 +90,7 @@ a:hover{
 }
 
 .Grow3:hover { 
-	transform: scale(9); 
+	transform: scale(30); 
 }
 	
 /*--4--*/
@@ -95,7 +98,7 @@ a:hover{
 	font-family: Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	font-size: 5px;
+	font-size: 2px;
 	color: black; /*connects to the sentence under the heading*/
 }
 
@@ -106,7 +109,7 @@ a:hover{
 }
 
 .Grow4:hover { 
-	transform: scale(6); 
+	transform: scale(15); 
 }
 
 
@@ -115,7 +118,7 @@ a:hover{
 	font-family: Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	font-size: 5px;
+	font-size: 2px;
 	color: black; /*connects to the sentence under the heading*/
 }
 
@@ -126,7 +129,7 @@ a:hover{
 }
 
 .Grow5:hover { 
-	transform: scale(14); 
+	transform: scale(24); 
 }
 
 /*--6--*/
@@ -134,7 +137,7 @@ a:hover{
 	font-family: Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	font-size: 5px;
+	font-size: 2px;
 	color: black; /*connects to the sentence under the heading*/
 }
 
@@ -145,7 +148,7 @@ a:hover{
 }
 
 .Grow6:hover { 
-	transform: scale(20); 
+	transform: scale(35); 
 }
 
 
